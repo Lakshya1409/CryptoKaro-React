@@ -8,7 +8,6 @@ export default defineConfig({
     proxy: {
       "/api": {
         target: "https://api.coingecko.com",
-        changeOrigin: true,
       },
     },
   },
